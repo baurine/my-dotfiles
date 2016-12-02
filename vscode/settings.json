@@ -1,0 +1,27 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "editor.fontFamily": "Fira Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 15,
+
+  // Controls after how many characters the editor will wrap to the next line. Setting this to 0 turns on viewport width wrapping (word wrapping). Setting this to -1 forces the editor to never wrap.
+  "editor.wrappingColumn": 0,
+
+  // The number of spaces a tab is equal to. This setting is overriden based on the file contents when `editor.detectIndentation` is on.
+  "editor.tabSize": 2,
+
+  // Controls how the editor should render whitespace characters, posibilties are 'none', 'boundary', and 'all'. The 'boundary' option does not render single spaces between words.
+  "editor.renderWhitespace": "all",
+  "editor.cursorStyle": "block",
+  "typescript.check.tscVersion": false,
+  "window.zoomLevel": 0,
+
+  // Controls if opened editors from Quick Open show as preview. Preview editors are reused until they are kept (e.g. via double click or editing).
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+
+  // Enables parameter hints
+  // disalbe the all popup hint dialog
+  // https://github.com/Microsoft/vscode/issues/15960
+  // https://github.com/Microsoft/vscode/issues/14840
+  // https://github.com/Microsoft/vscode/issues/2972
+  "editor.parameterHints": false
+}
